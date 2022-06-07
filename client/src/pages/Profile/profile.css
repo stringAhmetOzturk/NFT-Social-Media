@@ -1,0 +1,148 @@
+/* .profile{
+    display: flex;
+} 
+.profileRight{
+    flex: 9;
+}
+
+.profileRightTop{
+
+}
+.profileCover{
+height: 300px;
+position: relative;
+}
+.profileCoverImg{
+width: 100%;
+height: 250px;
+object-fit: inherit;
+}
+.profileUserImg{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+top: 150px;
+border: 2px solid white;
+}
+.profileInfo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.profileInfoName{
+font-size: 24px;
+font-weight: bold;
+}
+
+
+.profileRightBottom{
+    display: flex;
+} */
+
+.profile{
+    display: flex;
+}
+
+.profileRight{
+    flex: 9;
+}
+
+.profileCover{
+    height: 320px;
+
+}
+
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.shareImgContainer2{
+    padding: 0 20px 10px 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .shareImg2{
+    width: 100%;
+    object-fit: cover;
+  }
+  .shareImgContainer3{
+    padding: 0 20px 10px 20px;
+
+    position: absolute;
+  
+    width: 200px;
+    height: 200px;
+  }
+  .shareOption1{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.shareOption2{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+  
+  .shareImg3{
+    width: 100%;
+    object-fit: cover;
+  }
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+.profileFollowers{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 10px;
+    }
+    .profileFollowings{
+        font-size: 16px;
+        font-weight: bold;
+        padding-right: 10px;
+        }
+        .followInfo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            }
+            
+.profileRightBottom{
+    display: flex;
+}

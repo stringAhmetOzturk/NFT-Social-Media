@@ -1,0 +1,30 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #cad2da;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .dataResult {
+    position: absolute;
+    margin-top: 5px;
+    width: 35%;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+ 
